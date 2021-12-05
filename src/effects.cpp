@@ -3014,7 +3014,7 @@ bool EffectTime::timePrintRoutine(CRGB *leds, EffectWorker *param)
       }
     }
   } else {
-    //FastLED.clear();
+    FastLED.clear();
     EVERY_N_SECONDS(5){
       isMinute=!isMinute;
     }
